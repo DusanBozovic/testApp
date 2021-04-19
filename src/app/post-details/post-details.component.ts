@@ -16,7 +16,7 @@ export class PostDetailsComponent implements OnInit {
   getPost () {
     const id = 5;
     this.http.getPost(id).subscribe(data => {
-      console.log(data, 'zzz');
+      console.log(data, 'test');
     })
   }
 
